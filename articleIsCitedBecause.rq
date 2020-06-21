@@ -1,0 +1,12 @@
+#defaultView:BubbleChart
+SELECT (SUBSTR(STR(?intentionType), 27) AS ?reason) (COUNT(?citingArticle) AS ?count) WHERE {
+  VALUES ?citedArticle { wd:Q27061829 }
+  ?citingArticle p:P2860 ?citationStatement .
+  ?citationStatement ps:P2860 ?citedArticle .
+  OPTIONAL {
+    ?citationStatement pq:P3712 ?intention .
+    ?intention wdt:P31 wd:Q96471816 ;
+               wdt:P2888 ?cito .
+  }
+  BIND ( IF (BOUND (?cito), ?cito, <http://purl.org/spar/cito/cites> )  as ?intentionType  ) 
+} GROUP BY ?cito ?intentionType
