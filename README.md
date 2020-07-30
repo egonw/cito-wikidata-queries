@@ -5,6 +5,7 @@
 * [reasons why an article is citing other articles](https://w.wiki/UkE) (for a single non-random article)
 * [use of CiTO annotation by type](https://w.wiki/UgZ)
 * [use of CiTO annotation by journal](https://w.wiki/UvD)
+* [use of CiTO annotation by type for one journal](https://w.wiki/YHh) (for the Journal of Cheminformatics)
 
 ## QuickStatements
 
