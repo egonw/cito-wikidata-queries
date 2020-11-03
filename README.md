@@ -7,6 +7,8 @@
 * [use of CiTO annotation by journal](https://w.wiki/UvD)
 * [use of CiTO annotation by type for one journal](https://w.wiki/YHh) (for the Journal of Cheminformatics)
 
+You can also check out this new [Scholia overview](https://scholia.toolforge.org/cito/).
+
 ## QuickStatements
 
 The first column is the citing article, the second the cited article,
